@@ -1,0 +1,103 @@
+body {
+ display: flex;
+ justify-content: center;
+ margin: 0 10px;
+ 
+}
+ .box{
+  display: flex;
+  flex-direction: column;
+
+ }
+.boxone {
+  width: 341px;
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid gray;
+  padding: 5px;
+  align-items: center;
+  border-radius: 4px;
+  
+}
+.spwrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.h1 {
+  color: #FF6B82;
+  text-align: center;
+}
+.spwrap div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.boxone:hover {
+  background-color: #FFF9FA;
+  border: 2px solid #FF6B82;
+}
+
+.FreeDelivery {
+  display: flex;
+  color: #FF6B82;
+  align-items: center;
+  padding: 20px 0;
+  justify-content: space-between;
+}
+
+.Total {
+  display: flex;
+  margin: none;
+  align-items: center;
+  color: black;
+}
+
+.Cart {
+  display: flex;
+  background-color: #FF6B82;
+  align-items: center;
+  color: white;
+  justify-content: center;
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.Powered {
+  display: flex;
+  gap: 210px;
+  color: #808181;
+  margin:10px ;
+  justify-content: flex-end;
+
+}
+.discount{
+  background-color:#FF6B82;
+  color: white;
+  padding: 1px 4px;
+  border-radius: 2px;
+}
+.price{
+  text-decoration: line-through;
+  font-size: 10px;
+  opacity: 30%;
+  color: black;
+}
+.popular{
+  width: 130px;
+  color: white;
+  background:#FF6B82 ;
+  position: absolute;
+  top:-22px;
+  left: 200px;
+  border-radius: 0px, 0px, 4px, 4px;
+  text-transform: uppercase ;
+  text-align: center;
+}
